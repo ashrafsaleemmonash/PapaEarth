@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'PapaEarth'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E1B71371E6E648AA91C2583D6E90CEDA }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_915E44AB4CFD4295A88A20AB8AE0C052 }}
           package: .
