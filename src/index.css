@@ -16,7 +16,37 @@ code {
   font-family: "ComingSoon";
   src: local("ComingSoon"), url(./fonts/ComingSoon.ttf) format('truetype');
 }
-
+/* Test to see if font works but used for some height adjustment test on index*/
 .Test{
   font-family: "ComingSoon";
+  /* color:#FFCA3A; */
+  margin-top: 100px;
+  margin-bottom:100px;
 }
+/*Home page carousel*/
+.homeCarousel{
+  max-width: 1154px;
+  max-height: 649px; 
+  width:auto;
+  height:auto;
+  margin: auto;
+}
+.navbarText
+{
+  font-family: "ComingSoon";
+  font-size: 50px !important;
+  margin-right: 0 !important;
+}
+/*Bottom Nav bar used in home page*/
+.bottomNav{
+  font-family: "ComingSoon";
+  font-size:10px;
+  font-Weight: 'normal';
+  font-weight: 'bold';
+}
+
+.videoPageButton{
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
