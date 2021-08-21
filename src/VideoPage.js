@@ -14,6 +14,7 @@ class VideoPage extends React.Component {
   }
 
   increment(){
+    this.props.history.push("/quiz/" + this.linkId + "/video")
     if(this.linkId < this.links.length - 1){
       this.linkId += 1;
     }

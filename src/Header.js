@@ -23,9 +23,9 @@ function Header() {
                 <NavDropdown.Item href="#action/3.3">Plastic</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Quiz !" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/quiz">Introduction</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Energy</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Plastic</NavDropdown.Item>
+                <NavDropdown.Item href="/quiz/0">Introduction</NavDropdown.Item>
+                <NavDropdown.Item href="/quiz/1">Energy</NavDropdown.Item>
+                <NavDropdown.Item href="/quiz/2">Plastic</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
