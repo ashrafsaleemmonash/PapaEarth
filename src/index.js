@@ -15,7 +15,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/video" component={VideoPage} />    
-        <Route path="/quiz" component={QuizPage} />      
+        <Route path="/quiz/:id/:origin" component={QuizPage} />      
       </Switch>
     </Router>
   </React.StrictMode>,
